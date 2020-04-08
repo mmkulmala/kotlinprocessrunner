@@ -2,8 +2,6 @@ import java.io.File
 import java.lang.ProcessBuilder.Redirect
 import java.util.concurrent.TimeUnit
 
-
-
 fun main(args : Array<String>) {
     println("Run with String.runCommand()")
     "ls -la".runCommand()
